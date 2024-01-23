@@ -13,13 +13,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='parallels',
+    maintainer='Mira',
     maintainer_email='l.yang.ze.s@gmail.com',
     description='TODO: Package description',
-    license='Apache-2.0',
+    license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "c_board_pub = vehicle_state.c_board_pub:main",
         ],
     },
 )
